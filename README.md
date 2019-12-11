@@ -1,20 +1,27 @@
-# Architecture components : Room exploration 
+Architecture components : Room exploration 
+=========================
  
  Most of us know how to use room database for android development. Instead of basic functionalities, will expolre more intresting and important features that could help us in app development.
 
-## What we explore ##
+What we explore
+-------------------------
+
 1. Relations – In designing a relational database, splitting data into related table and get data together in meaningful way is important. Room supports all possible relations between tables : 1 to 1, 1 to many & many to many with on annotation @Relation.
-   ### One to One relations ###
-   ### One to Many relations ###
-   ### Many to Many relations ### 
+    
+    * One to One relation
+    * One to Many relation
+    * Many to Many relation
+    
 2. SQL Join – A JOIN clause is used to combine two or more tables, based on related column.
 
-## What we updated from room ##
+What we updated from room
+-------------------------
 1. [Room 2.2](https://developer.android.com/jetpack/androidx/releases/room#version_220_3)
-2. [Coroutines flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) 
+2. [Coroutines-flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) 
 3. [Room Testing](https://developer.android.com/training/data-storage/room/testing-db)
 
-### License
+License
+-------------------------
 ```
 Copyright (C) 2019 WouaLabs
 
